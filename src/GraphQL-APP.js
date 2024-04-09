@@ -39,7 +39,6 @@ const App = ({ signOut }) => {
         variables: { input: newDoc },
       });
       setNewDoc({ name: "", sender: "" }); // Reset form
-      // 注意：这里不自动调用fetchDocs，让用户选择何时更新列表
     } catch (err) {
       console.error("Error creating document:", err);
     }

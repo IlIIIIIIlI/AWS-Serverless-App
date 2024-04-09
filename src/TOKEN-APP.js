@@ -12,13 +12,6 @@ import { get } from "@aws-amplify/api";
 
 Amplify.configure(awsconfig);
 
-const getAllApiNames = () => {
-  // 找到所有以 'aws_cloud_logic_custom' 开头的配置项，这些是自定义的 API 配置
-  const apis = awsconfig.aws_cloud_logic_custom || [];
-  const apiNames = apis.map((api) => api.name);
-  return apiNames;
-};
-
 function App() {
   const { signOut } = useAuthenticator();
 
@@ -53,10 +46,6 @@ function App() {
       console.error("Error calling API: ", error);
     }
   };
-
-  // 获取所有 API 名称并在控制台中打印出来
-  const apiNames = getAllApiNames();
-  console.log("API Names: ", apiNames);
 
   return (
     <div className="App">

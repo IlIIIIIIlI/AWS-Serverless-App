@@ -1,3 +1,15 @@
+# Apps
+Let's build a Serverless application using AWS services.
+This is a beta repo on the implementation of two articles on Medium and updates from AWS Amplify v6 documentation.
+Happy to receive any Pull Request.
+
+## Medium Links
+[Build Serverless application with AWS Amplify, AWS API Gateway, AWS Lambda and Cognito Auth](https://medium.com/rahasak/build-serverless-application-with-aws-amplify-aws-api-gateway-aws-lambda-and-cognito-auth-a8606b9cb025)
+[Serverless GraphQL API with AWS Amplify AppSync and Cognito Auth](https://medium.com/rahasak/serverless-graphql-api-with-aws-amplify-appsync-and-cognito-auth-c84ad3bafa43)
+
+## AWS amplify doc
+[Migration from v5 to v6](https://docs.amplify.aws/nextjs/build-a-backend/troubleshooting/migrate-from-javascript-v5-to-v6/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
